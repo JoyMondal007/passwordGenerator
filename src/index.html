@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
+     <!--font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/dict/style.css">
+    <title>Password Generator App</title>
+</head>
+<body>
+
+    <div class="generate-pw-container">
+
+        <h1 class="title">Generate a <span class="accent-txt">random password</span></h1>
+        <p class="subtitle">Never use an insecure password again.</p>
+
+        <div class="actions">
+             <button class="generate-passwords-btn"><img src="./icon1.png" alt='lightning icon' >Generate passwords</button>
+             <input type="number" min="8" max="15" placeholder="change password length" class="change-password-length" >
+        </div>
+
+        <div class="display-passwords-container">
+            <div class="pass">
+                <input type='text' class="pw-display one">
+                <i class="fa-regular fa-copy"></i>
+            </div>
+            <div class="pass">        
+                <input type="text" class="pw-display two">
+                <i class="fa-regular fa-copy"></i>
+            </div>
+            <div class="pass">            
+                <input type="text" class="pw-display three row">
+                <i class="fa-regular fa-copy"></i>
+            </div>
+            <div class="pass">
+                <input class="pw-display four row">                
+                <i class="fa-regular fa-copy"></i>
+            </div>
+        </div>
+   </div>
+   <div class="alart">
+   
+   </div>
+
+    <script src="/dict/script.js"></script>
+</body>
+</html>
